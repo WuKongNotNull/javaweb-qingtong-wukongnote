@@ -1,0 +1,137 @@
+{
+  "title": "悟空非空也 - javaweb 入门 - 青铜篇",
+  "author": "悟空非空也",
+  "description": "悟空非空也宝藏集,个人博客 https://wukongnotnull.com/",
+  "language": "zh-hans",
+  "links": {
+    "sidebar": {
+      "科学上网": "https://github.com/WuKongNotNull/awesome-free-vpn",
+      "JetBrains 全家桶": "https://www.bilibili.com/read/cv11463068"
+    }
+  },
+  "plugins": [
+    "-lunr",
+    "-search",
+    "search-plus",
+    "splitter",
+    "-sharing",
+    "sharing-plus",
+    "chapter-fold",
+    "edit-link-plus",
+    "code",
+    "chart",
+    "favicon-absolute",
+    "github-buttons",
+    "advanced-emoji",
+    "copyright",
+    "tbfed-pagefooter",
+    "donate",
+    "diff",
+    "simple-mind-map",
+    "hide-element",
+    "audio_image",
+    "mermaid-gb3",
+    "baidu-tongji-with-multiple-channel",
+    "google-tongji-with-multiple-channel",
+    "icp",
+    "anchor-navigation-ex-toc",
+    "insert-logo-link-website",
+    "pageview-count",
+    "flexible-alerts",
+    "auto-scroll-table",
+    "accordion",
+    "sectionx"
+  ],
+  "pluginsConfig": {
+    "favicon-absolute": {
+      "favicon": "asset/wukong-favicon.ico",
+      "appleTouchIconPrecomposed152": "/apple-touch-icon-precomposed-152.png"
+    },
+    "github-buttons": {
+      "buttons": [{
+        "user": "WuKongNotNull",
+        "repo": "javaweb-qingtong-wukongnote",
+        "type": "star",
+        "size": "small"
+      }]
+    },
+    "sharing": {
+      "douban": true,
+      "facebook": false,
+      "google": false,
+      "hatenaBookmark": false,
+      "instapaper": false,
+      "line": false,
+      "linkedin": false,
+      "messenger": false,
+      "pocket": false,
+      "qq": true,
+      "qzone": true,
+      "stumbleupon": false,
+      "twitter": false,
+      "viber": false,
+      "vk": false,
+      "weibo": true,
+      "whatsapp": false,
+      "all": [
+        "facebook", "google", "twitter",
+        "weibo", "instapaper", "linkedin",
+        "pocket", "stumbleupon"
+      ]
+    },
+    "edit-link-plus": {
+      "base":  "https://github.com/WuKongNotNull/javaweb-qingtong-wukongnote/blob/main/",
+      "label": "编辑本页"
+    },
+    "chart": {
+      "type": "c3"
+    },
+    "copyright": {
+      "site": "https://wukongnotnull.github.io/javaweb-qingtong-wukongnote/",
+      "author": "悟空非空也",
+      "website": "悟空非空也",
+      "image": "/asset/weixin/weixin-QR-code.jpg",
+      "copyProtect": false
+
+    },
+    "tbfed-pagefooter": {
+      "copyright": "&copy 悟空非空也",
+      "modify_label": "文件修订时间: ",
+      "modify_format": "YYYY-MM-DD HH:mm:ss"
+    },
+    "donate": {
+      "wechat": "/asset/pay/wechat-pay.png",
+      "alipay": "/asset/pay/ali-pay.png",
+      "title": "",
+      "button": "赞 👍 赏",
+      "alipayText": "支付宝",
+      "wechatText": "微信"
+    },
+    "hide-element": {
+      "elements": ["a.gitbook-link[href='https://www.gitbook.com']",".copyright"]
+    },
+    "simple-mind-map":{
+      "preset": "colorful"
+    },
+    "icp": {
+      "number": "苏ICP备2021034291号"
+    },
+    "anchor-navigation-ex-toc": {
+      "float": {
+        "showLevelIcon": true,
+        "level1Icon": "fa fa-hand-o-right",
+        "level2Icon": "fa fa-hand-o-right",
+        "level3Icon": "fa fa-hand-o-right"
+      },
+      "multipleH1": false
+    },
+    "insert-logo-link-website": {
+      "url": "/asset/wukong-favicon.ico",
+      "link": "/index.html",
+      "target": "_self",
+      "style": "height: 100px"
+    }
+
+
+  }
+}

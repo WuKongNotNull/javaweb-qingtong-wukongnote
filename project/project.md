@@ -513,11 +513,11 @@ index.jsp
                           <%
                               NewsService newsService=new NewsServiceImpl();
                               List<News> newsList = newsService.getNewsList();
-                              for(News news:newsList){%>
+                              for(News news:newsList){ %> }
                                   <li><span><%=news.getCreateDate() %></span><a href="<%=request.getContextPath()%>/pages/newsDetail.jsp?newsId=<%=news.getId()%>"><%=news.getTitle()%></a></li>
-                           <%   }
+                           <%}  %>
 
-                          %>
+                        
 
 
 

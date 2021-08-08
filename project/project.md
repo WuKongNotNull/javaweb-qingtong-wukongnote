@@ -8,7 +8,7 @@ servlet-api.jar
 
 ## 3-使用jsp实现新闻页面输出-out将java代码中的信息输出
 
-```jsp
+```
 
 ```
 
@@ -16,7 +16,7 @@ servlet-api.jar
 
 ## 4-需求：在jsp中使用变量
 
-```jsp
+```
                        <div class="source-bar">
 						<%String author = "小K童鞋";%>
 						发布者：<%=author%> 分类：新闻信息 更新时间：
@@ -31,7 +31,7 @@ servlet-api.jar
 
 ## 5-需求：在jsp中声明全局变量和局部变量
 
-```jsp
+```
   
   <body>
   <%--局部变量和全局变量 --%>
@@ -347,7 +347,7 @@ public class MySqlUtil {
 
 ## 11-编写登陆功能
 
-```jsp
+```
                 <form action="<%=request.getContextPath()%>/LoginServlet" method="post">
                     <label>用户名</label><input type="text" name="uname" value="" />
                     <label>密码</label><input type="text" name="upassword" />
@@ -414,7 +414,7 @@ public class LoginServlet extends HttpServlet {
 
 ## 12-注销功能
 
-```jsp
+```
  <a href="<%=request.getContextPath() %>/LoginOutServlet">注销</a>
 ```
 
@@ -433,7 +433,7 @@ public class LoginServlet extends HttpServlet {
 
 ## 13-注册功能
 
-```jsp
+```
 <form name="registerFrm" id="registerFrm" action="<%=request.getContextPath()%>/RegisterServlet" method="get">
 <!-- <form name="registerFrm" id="registerFrm" action="doUserCreate.jsp" method="post"> -->
 	<table class="tb" border="0" cellspacing="5" cellpadding="0" align="center">
@@ -543,7 +543,7 @@ public interface NewsService {
 
 index.jsp
 
-```jsp
+```
 <ul class="news-list-ul clearfix">
                           <%
                               NewsService newsService=new NewsServiceImpl();

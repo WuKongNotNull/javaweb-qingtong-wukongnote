@@ -508,7 +508,7 @@ public class LoginServlet extends HttpServlet {
 
 index.jsp
 
-```jsp
+```
                       <ul class="news-list-ul clearfix">
                           <%
                               NewsService newsService=new NewsServiceImpl();
